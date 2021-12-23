@@ -6,7 +6,12 @@ The purpose of this project was to review stock information from 2017 and 2018 o
 
 ## Results
 
-  
+While all of the stocks except one had a positive yearly return in 2017, in 2018 the majority of the stocks had a negative yearly return.  Only ENPH and RUN had positive performance in both years.
+
+The original code:
+```
+test test 
+```
 
 The original code execution time is below.
 
@@ -15,6 +20,10 @@ The original code execution time is below.
 ![original code 2018](https://user-images.githubusercontent.com/95188079/147279844-58d486c4-b5fb-4f46-bbb2-7d733366de78.png)
 
 The refactored code:
+
+```
+test test
+```
 
 The refactored script ran much faster.
 
