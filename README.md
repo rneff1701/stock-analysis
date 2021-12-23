@@ -5,8 +5,10 @@
 The purpose of this project was to review stock information from 2017 and 2018 on a selection of green energy companies.  Analysis was initially done on an individual company, DQ, which had the requestor's client was interested in.  The analysis consisted of calculating the yearly volume of trades and the yearly return of the stock.  After determining that the stock in question had a negative return in 2018 the analysis was expanded to other companies.
 
 ## Results
-The original code:
-`Sub AllStocksAnalysis()
+
+
+'The original code:
+Sub AllStocksAnalysis()
 
 'add code for timer
     Dim startTime As Single
@@ -89,8 +91,8 @@ The original code:
    
    'add code to end timer
    endTime = timer
-    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)`
-    
+    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+`    
 
 
 The original code execution time is below.
