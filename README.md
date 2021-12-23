@@ -2,7 +2,7 @@
 ## Analyze stock data of green energy companies
 
 ### Project Overview
-The purpose of this project was to review stock information from 2017 and 2018 on a selection of green energy companies.  Analysis was initially done on an individual company, DQ, which had the requestor's client was interested in.  The analysis consisted of calculating the yearly volume of trades and the yearly return of the stock.  After determining that the stock in question had a negative return in 2018 the analysis was expanded to other companies.
+The purpose of this project was to review stock information from 2017 and 2018 on a selection of green energy companies.  Analysis was initially done on an individual company, DQ, which the requestor's client was interested in.  The analysis consisted of calculating the yearly volume of trades and the yearly return.  After determining that the stock in question had a negative return in 2018 the analysis was expanded to other companies.
 
 ## Results
 
@@ -251,7 +251,7 @@ What are the advantages or disadvantages of refactoring code?
 
 Advantage 1: Refactoring can speed up execution time.
 
-Advantage 2: If the code has not been reviewed in some time, refactoring could identify an issue in the code that was not caught in testing.  It's also an opportunity to add enhancements or update it if the audience of the output has changed.
+Advantage 2: If the code has not been reviewed in some time, refactoring is an opportunity to implement new best practices or lessons learned.
 
 Disadvantage 1: The time spent refactoring for a potentially minimal gain.
 
