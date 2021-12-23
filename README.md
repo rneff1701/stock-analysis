@@ -34,13 +34,20 @@ The refactored script ran much faster.
 
 ### Summary
 What are the advantages or disadvantages of refactoring code?
-Advantage 1: Refactoring the code did speed up the execution code.  The original time was 2.7 seconds and the refactored time was 0.4 seconds.
+
+Advantage 1: Refactoring can speed up execution time.
 
 Advantage 2: If the code has not been reviewed in some time, refactoring could identify an issue in the code that was not caught in testing.  It's also an opportunity to add enhancements or update it if the audience of the output has changed.
 
-Disadvantage 1: The time spent refactoring and troubleshooting issues was about 4 hours for me.  The first day I worked on it for about 3 hours and could not figure out why I kept getting a next without for error.  I got frustrated and eventually I saved my code to a text document, deleted it from the workbook, and then started over again the next day.
-
-Not strictly a disadvantage some questions to consider are who determines when the code is efficient enough?  Is that the requestor, the client, the developer?  At what point does the time you spend refactoring outweigh the time you would gain?  Are new results being compared to the old to confirmt the code is working as expected?  
+Disadvantage 1: The time spent refactoring for a potentially minimal gain.
 
 
 How do these pros and cons apply to refactoring the original VBA script?
+
+Advantage 1: The original time was 2.7 seconds and the refactored time was 0.4 seconds.
+
+Advantage 2: N/A for this project
+
+Disadvantage 1: The time spent refactoring and troubleshooting issues was about 4 hours for me.  The first day I worked on it for about 3 hours and could not figure out why I kept getting a next without for error.  I got frustrated and eventually I saved my code to a text document, deleted it from the workbook, and then started over again the next day.  I did find it easier to work on the code in Visual Studio instead of Excel.  Although the script did run faster by a few seconds in a professional setting it would probably not be the best use of time for files this size.
+
+Also, while not a disadvantage some questions to consider are who determines when the code is efficient enough?  Is that the requestor, the client, the developer?  At what point does the time you spend refactoring outweigh the time you would gain?  Are new results being compared to the old to confirmt the code is working as expected?  What is the frequency at which code should be reviewed to see if it can be refactored?
